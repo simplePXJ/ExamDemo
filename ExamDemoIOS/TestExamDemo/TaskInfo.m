@@ -15,4 +15,15 @@
 - (NSString *)description {
     return [NSString stringWithFormat:@"<%@: %p, nodeId: %d, taskId: %d", NSStringFromClass([self class]), self, self.nodeId, self.taskId];
 }
+
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        self.taskId = 0;
+        self.nodeId = 0;
+        self.consumption = 0;
+    }
+    return self;
+}
 @end

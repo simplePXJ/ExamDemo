@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface TaskInfo : NSObject
-@property (nonatomic, assign) int taskId;
-@property (nonatomic, assign) int nodeId;
+@property (nonatomic, assign) int taskId;//任务编号
+@property (nonatomic, assign) int nodeId;//服务节点编号
+@property (nonatomic, assign) int consumption;//率
+
 @end

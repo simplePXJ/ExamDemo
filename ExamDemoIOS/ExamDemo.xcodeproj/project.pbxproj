@@ -11,6 +11,7 @@
 		5ADB10C220CACAC7006DDD3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADB10C120CACAC7006DDD3E /* main.m */; };
 		5ADB10CF20CACC42006DDD3E /* TestExamDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADB10CE20CACC42006DDD3E /* TestExamDemo.m */; };
 		5ADB10EA20CAD07F006DDD3E /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADB10D520CACCCE006DDD3E /* Schedule.m */; };
+		C951DD2620DA709E00FD3019 /* ServerPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = C951DD2520DA709E00FD3019 /* ServerPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		5ADB10E820CAD06A006DDD3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5ADB10E920CAD06A006DDD3E /* Scheduler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scheduler.m; sourceTree = "<group>"; };
 		5ADB10EB20CAD509006DDD3E /* ReturnCodeKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReturnCodeKeys.h; sourceTree = "<group>"; };
+		C951DD2420DA709E00FD3019 /* ServerPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerPoint.h; sourceTree = "<group>"; };
+		C951DD2520DA709E00FD3019 /* ServerPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 		5ADB10CD20CACC42006DDD3E /* TestExamDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C951DD2420DA709E00FD3019 /* ServerPoint.h */,
+				C951DD2520DA709E00FD3019 /* ServerPoint.m */,
 				5A44DAF420D39E310094133C /* TaskInfo.h */,
 				5A44DAF520D39E310094133C /* TaskInfo.m */,
 				5ADB10D420CACCCE006DDD3E /* Schedule.h */,
@@ -265,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A44DAF620D39E310094133C /* TaskInfo.m in Sources */,
+				C951DD2620DA709E00FD3019 /* ServerPoint.m in Sources */,
 				5ADB10EA20CAD07F006DDD3E /* Schedule.m in Sources */,
 				5ADB10CF20CACC42006DDD3E /* TestExamDemo.m in Sources */,
 			);
